@@ -36,7 +36,9 @@ export function SiteFooter() {
                 <div className="grid gap-8 lg:grid-cols-5">
                     <div className="lg:col-span-2">
                         <Link href="/" className="flex items-center space-x-2 group">
-                            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-purple-600 shadow-md group-hover:shadow-lg transition-all duration-200" />
+                            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-purple-600 shadow-md group-hover:shadow-lg transition-all duration-200 flex items-center justify-center">
+                                <span className="text-white font-bold text-sm">R</span>
+                            </div>
                             <span className="font-bold text-lg bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Reduxy.ai</span>
                         </Link>
                         <p className="mt-4 text-sm text-muted-foreground max-w-xs leading-relaxed">

@@ -28,7 +28,9 @@ export function SiteHeader() {
             <div className="content-width flex h-16 items-center">
                 <div className="mr-4 hidden md:flex">
                     <Link href="/" className="mr-6 flex items-center space-x-2 group">
-                        <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-purple-600 shadow-md group-hover:shadow-lg transition-all duration-200 group-hover:scale-105" />
+                        <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-purple-600 shadow-md group-hover:shadow-lg transition-all duration-200 group-hover:scale-105 flex items-center justify-center">
+                            <span className="text-white font-bold text-sm">R</span>
+                        </div>
                         <span className="hidden font-bold text-lg bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent sm:inline-block">
                             Reduxy.ai
                         </span>
@@ -76,7 +78,9 @@ export function SiteHeader() {
                 <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
                     <div className="w-full flex-1 md:w-auto md:flex-none">
                         <Link href="/" className="flex items-center space-x-2 md:hidden group">
-                            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-purple-600 shadow-md group-hover:shadow-lg transition-all duration-200" />
+                            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-purple-600 shadow-md group-hover:shadow-lg transition-all duration-200 flex items-center justify-center">
+                                <span className="text-white font-bold text-sm">R</span>
+                            </div>
                             <span className="font-bold text-lg bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Reduxy.ai</span>
                         </Link>
                     </div>
@@ -116,7 +120,9 @@ function MobileNav() {
     return (
         <div className="flex flex-col h-full bg-background min-h-screen space-y-6 p-6">
             <Link href="/" className="flex items-center space-x-2 group">
-                <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-purple-600 shadow-md group-hover:shadow-lg transition-all duration-200" />
+                <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-purple-600 shadow-md group-hover:shadow-lg transition-all duration-200 flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">R</span>
+                </div>
                 <span className="font-bold text-lg bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Reduxy.ai</span>
             </Link>
 
